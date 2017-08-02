@@ -37,4 +37,9 @@ class ViewController: UIViewController {
         number = 0
         label.text  = String(number)
     }
+    
+    @IBAction func double() {
+        number = number * 2
+        label.text = String(number)
+    }
 }
